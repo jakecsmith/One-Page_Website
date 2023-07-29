@@ -3,12 +3,13 @@
 	<head>
 		<meta charset="utf-8">
 		<title>LitRPG Fanspace</title>
+		<link rel="stylesheet" type="text/css" href="./css/one_page_website.css">
 	</head>
 	<body>
 		<div>
 				<!--Navigation Top-->
 					<div>
-						<div>
+						<div id="navigation" class="navig">
 							<ul>
 								<a href="#home" id="link"><li>HOME</li></a>
 								<a href="#titlegallery" id="link"><li>THIS MONTH'S RECOMMENDATIONS</li></a>
@@ -22,8 +23,10 @@
 			
 			<div id="home">
 				<!--Home-->
-					<h1>LitRPG Fanspace</h1>
-					<div>
+					<div class="topheader">
+						<h1>LitRPG Fanspace</h1>
+					</div>
+					<div class="summary">
 						<p>LitRPG is a subgenre of fantasy that combines the genre's international trope variations with leveling and skill-building systems akin to a tabletop or digital RPG. This is a site for celebrating them.</p>
 					</div>
 				<!--End Home-->
@@ -61,25 +64,25 @@
 			<!--Contact Form-->
 				<div id="contact">
 					<h3>Register for our mailing list!</h3>
-					<div>	
+					<div class="contactformbody">	
 						<form method="post">
 							<div>
 								<label>First Name: 
-									<input name="submitted-firstname" autocomplete="First Name">
+									<input name="submitted-firstname" autocomplete="First Name" class="contactinput">
 								</label>
 							</div>
 							<div>
 								<label>Last Name: 
-									<input name="submitted-lastname" autocomplete="Last Name">
+									<input name="submitted-lastname" autocomplete="Last Name" class="contactinput">
 								</label>
 							</div>
 							<div>
 								<label>Email Address:
-									<input name="submitted-email" autocomplete="emailaddress@example.mail">
+									<input name="submitted-email" autocomplete="emailaddress@example.mail" class="contactinput">
 								</label>
 							</div>
 							<fieldset>
-								<<input type="checkbox" id="emailagreement" name="emailagreement" value="agee">
+								<input type="checkbox" id="emailagreement" name="emailagreement" value="agree" class="contactinput">
 								<label for "emailagreement"> I agree to recieve promotional and event emails from LitRPG Fanspace.</label><br>
 							</fieldset>
 							<button>Save</button>
@@ -104,7 +107,7 @@
 			<div>
 				<!--Navigation Bottom-->
 					<div>
-						<div>
+						<div class="navig">
 							<ul>
 								<a href="#home" id="link"><li>HOME</li></a>
 								<a href="#titlegallery" id="link"><li>THIS MONTH'S RECOMMENDATIONS</li></a>
